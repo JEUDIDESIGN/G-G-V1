@@ -4,6 +4,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   z-index: 0;
+  scroll-behavior: smooth;
 }
 
 *, *:before, *:before {
@@ -23,6 +24,116 @@ body {
   background-size: cover;
   margin: 0;
   font-family: 'Merriweather';
+  font-weight: 900;
   overflow-x: hidden;
+}
+
+header {
+  z-index: 100;
+  background-color: var(--primary-color);
+  height: 8vw;
+  position: fixed;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 2px 0px 15px #00000017;
+          box-shadow: 2px 0px 15px #00000017;
+}
+
+header a {
+  height: inherit;
+}
+
+header a img {
+  height: inherit;
+}
+
+.hero {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 0;
+  height: 61vw;
+  width: 100%;
+  padding-top: 8vw;
+}
+
+.hero .title-box {
+  z-index: 0;
+  width: 50%;
+  padding-left: 22px;
+}
+
+.hero .title-box h1 {
+  font-size: 8vw;
+}
+
+.hero .title-box #title1 {
+  color: var(--title-text);
+}
+
+.hero .title-box #title2, .hero .title-box #title3 {
+  color: white;
+  position: absolute;
+}
+
+.hero .title-box #title2 {
+  padding-left: 22px;
+  top: 18.55vw;
+  left: .52vw;
+}
+
+.hero .title-box #title3 {
+  padding-left: 22px;
+  top: 28.64vw;
+  left: 18.42vw;
+}
+
+.hero .title-box h2 {
+  font-family: "Space Mono";
+  background-color: var(--secondary-color);
+  margin-bottom: 8px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  line-height: 95%;
+  font-size: 1.17vw;
+}
+
+.hero .title-box p {
+  color: white;
+  font-size: .97vw;
+  font-weight: 500;
+  margin-top: 2.60vw;
+}
+
+.hero .hero-img {
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+}
+
+.paragraph #intro::first-letter {
+  color: var(--secondary-color);
+  font-size: 100px;
+  font-style: black;
 }
 /*# sourceMappingURL=style.css.map */
