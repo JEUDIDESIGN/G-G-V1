@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  z-index: 0;
+}
+
+*, *:before, *:before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #FBE3E6;
+  --secondary-color: #E86100;
+  --text-color:#A79D9E;
+  --title-text: #666666;
+}
+
+body {
+  background-color: var(--primary-color);
+  background-size: cover;
+  margin: 0;
+  font-family: 'Merriweather';
+  overflow-x: hidden;
+}
+/*# sourceMappingURL=style.css.map */
