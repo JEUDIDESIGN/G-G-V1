@@ -254,6 +254,7 @@ nav{
 .divisore-ita {
     width: 100%;
     background-color: black;
+    height: 31.25vw;
     img {
         
         width: 100%;
@@ -263,8 +264,8 @@ nav{
   
     }
     .shadow {
-        position: absolute;
-        top: 153.58072916666666vw;
+        position: relative;
+        top: -31.25vw;
         display: block;
         width: 100%;
         height: 31.25vw;
