@@ -26,7 +26,7 @@ body {
     font-weight: 900;
     overflow-x: hidden;
 }
-
+//Settings Header
 header {
     z-index: 100;
     background-color: var(--primary-color);
@@ -48,7 +48,7 @@ header {
     }
 
 }
-
+//Settings Hero
 .hero{
     background-color: black;
     display: flex;
@@ -109,7 +109,7 @@ header {
 
     }
 }
-
+//Settings social bar
 .divisore-social {
 
     height: 8.46vw;
@@ -182,11 +182,11 @@ header {
     }
     
 }
-
+//Settings nav bar
 nav{
     display: none;
 }
-
+//Settings di tutti i paragrafi e prima lettera del primo paragrafo
 .paragraph {
     
     #intro::first-letter{
@@ -207,7 +207,7 @@ nav{
 
 
 }
-
+//Settings primo paragrafo
 #p1 {
 
     display: flex;
@@ -250,7 +250,7 @@ nav{
         }
     }
 }
-
+//Settings divisore con immagine scudetto italia
 .divisore-ita {
     width: 100%;
     background-color: black;
@@ -272,9 +272,96 @@ nav{
         box-shadow: inset 10px 10px 35px rgba(0, 0, 0, 0.9); 
     }
 }
+//Settings titoli paragrafi
+#p2, #p4, #p5, #p6 {
+    h1 {
+        font-weight: 900;
+        font-size: 3.8vw;
+        b{
+            color: var(--secondary-color);
+        }
+        width: 50%;
+        border-right: 2px solid var(--lines);
+        padding-left: 15vw;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+    }
+}
+
+#p2 {
+    display: flex;
+    flex-wrap: wrap;
+
+    h1 {
+        order: 1;
+    }
+
+    p{
+        order: 3;
+        flex: -1 0 100%;
+        transform: translateY(-20vw);
+        
+    }
+
+    .vid-commenti {
+        display: flex;
+        order: 2;
+        width: 50%;
+        position: relative;
+        transform: translate(18%, 50%);
+        height: 31.25vw;
+        width: 40vw;
+        border: 2px solid var(--lines);
+
+            iframe {
+            height: 26vw;
+            width: 40vw;
+            margin-top: 5.07vw;
+        }
+    }
+    .connect {
+        order: 3;
+        background-color: var(--secondary-color);
+        width: 8.1vw;
+        height: 1.88vw;
+        border-bottom: 2px solid var(--lines);
+        position: relative;
+        
+    }
+}
+
+#p3 {
+    margin-top: -22.78vw;
+    display: flex;
+
+    .vid-commenti2 {
+            display: flex;
+            width: 50%;
+            position: relative;
+            transform: translate(18%, 50%);
+            height: 31.25vw;
+            width: 40vw;
+            border: 2px solid var(--lines);
+            left: -8.1vw;
+    
+                iframe {
+                height: 26vw;
+                width: 40vw;
+                margin-top: 5.07vw;
+            }
+        }
+        .connect {
+            background-color: var(--secondary-color);
+            width: 8.1vw;
+            height: 1.88vw;
+            border-bottom: 2px solid var(--lines);
+            position: relative;
+            top: 29.29vw;
+        }
+}
 
 
-
+//Settings footer
 footer{
     background-color: black;
     height: 7.68vw;

@@ -302,6 +302,114 @@ nav {
           box-shadow: inset 10px 10px 35px rgba(0, 0, 0, 0.9);
 }
 
+#p2 h1, #p4 h1, #p5 h1, #p6 h1 {
+  font-weight: 900;
+  font-size: 3.8vw;
+  width: 50%;
+  border-right: 2px solid var(--lines);
+  padding-left: 15vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+}
+
+#p2 h1 b, #p4 h1 b, #p5 h1 b, #p6 h1 b {
+  color: var(--secondary-color);
+}
+
+#p2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#p2 h1 {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+#p2 p {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+  -webkit-box-flex: -1;
+      -ms-flex: -1 0 100%;
+          flex: -1 0 100%;
+  -webkit-transform: translateY(-20vw);
+          transform: translateY(-20vw);
+}
+
+#p2 .vid-commenti {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  width: 50%;
+  position: relative;
+  -webkit-transform: translate(18%, 50%);
+          transform: translate(18%, 50%);
+  height: 31.25vw;
+  width: 40vw;
+  border: 2px solid var(--lines);
+}
+
+#p2 .vid-commenti iframe {
+  height: 26vw;
+  width: 40vw;
+  margin-top: 5.07vw;
+}
+
+#p2 .connect {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+  background-color: var(--secondary-color);
+  width: 8.1vw;
+  height: 1.88vw;
+  border-bottom: 2px solid var(--lines);
+  position: relative;
+}
+
+#p3 {
+  margin-top: -22.78vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#p3 .vid-commenti2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  position: relative;
+  -webkit-transform: translate(18%, 50%);
+          transform: translate(18%, 50%);
+  height: 31.25vw;
+  width: 40vw;
+  border: 2px solid var(--lines);
+  left: -8.1vw;
+}
+
+#p3 .vid-commenti2 iframe {
+  height: 26vw;
+  width: 40vw;
+  margin-top: 5.07vw;
+}
+
+#p3 .connect {
+  background-color: var(--secondary-color);
+  width: 8.1vw;
+  height: 1.88vw;
+  border-bottom: 2px solid var(--lines);
+  position: relative;
+  top: 29.29vw;
+}
+
 footer {
   background-color: black;
   height: 7.68vw;
