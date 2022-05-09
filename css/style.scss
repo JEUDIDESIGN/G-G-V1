@@ -273,7 +273,7 @@ nav{
     }
 }
 //Settings titoli paragrafi
-#p2, #p4, #p5, #p6 {
+#p2, #p4, #p5, #p6, #p7 {
     h1 {
         font-weight: 900;
         font-size: 3.8vw;
@@ -503,6 +503,36 @@ nav{
     display: flex;
     flex-direction: column;
 
+    .par1 {
+        display: flex;
+        flex-wrap: wrap;
+
+        .vid-occasioni {
+            display: flex;
+            position: relative;
+            transform: translate(18%, 50%);
+            height: 31.25vw;
+            width: 40vw;
+            border: .13vw solid var(--lines);
+            left: -8.1vw;
+    
+                iframe {
+                height: 26vw;
+                width: 40vw;
+                margin-top: 5.07vw;
+            }
+        }
+        .connect {
+            background-color: var(--secondary-color);
+            width: 8.1vw;
+            height: 1.88vw;
+            border-bottom: .13vw solid var(--lines);
+            position: relative;
+            top: 29.29vw;
+        }
+    }
+
+
     #p-white{
         color: white;
         z-index: 10;
@@ -520,6 +550,109 @@ nav{
     }
 }
 
+#p7{
+    margin-top: -74vw;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    h1 {
+        order: 1;
+    }
+    
+    p{
+        order: 3;
+        margin-top: -53vw;
+    }
+
+    .img-box {
+        order: 2;
+        width: 50%;
+        height: 63.8vw;
+        padding-top: 8vw;
+    }
+
+    .box1, .box2, .box3, .box4, .box5 {
+        border: .13vw solid var(--lines);
+    }
+
+    .box1 {
+        width:28.45vw;
+        height: 19vw;
+        margin-top: 2.92vw;
+        margin-left: 7.16vw;
+
+    }
+
+    #img1 {
+        width:28.2vw;
+        margin-top: 2.9vw;
+    }
+
+    .box2 {
+        width:15.7vw;
+        height: 9.5vw;
+        margin-top: 5vw;
+        margin-left: 10vw;
+    }
+
+    #img2 {
+        width: 15.45vw;
+        margin-top: 2vw;
+    }
+
+    .box3 {
+        width:20.7vw;
+        height: 14.2vw;
+        margin-top: -13.3vw;
+        margin-left: 27vw;
+
+    }
+    
+    #img3{
+        width: 20.5vw;
+        margin-top: 2.4vw;
+
+    }
+
+    .box4{
+        width:25.7vw;
+        height: 14.3vw;
+        margin-top: 1vw;
+        margin-left: 12vw;
+
+    }
+
+    #img4{
+        width: 25.45vw;
+        margin-top: 2vw;
+
+    }
+
+    .box5{
+        width:11.7vw;
+        height: 8.7vw;
+        margin-top: 1vw;
+        margin-left: 35vw;
+
+    }
+
+    #img5{
+        width: 11.45vw;
+        margin-top: 2vw;
+        
+    }
+}
+
+.img-bot {
+    width: 100%;
+    display: flex;
+
+    img{
+        object-fit: contain;
+        width: 100%;
+    }
+}
 
 //Settings footer
 footer{
