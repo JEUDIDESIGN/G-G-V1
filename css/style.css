@@ -595,6 +595,32 @@ nav {
   left: -9.4vw;
 }
 
+#p6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#p6 #p-white {
+  color: white;
+  z-index: 10;
+  border: none;
+}
+
+#p6 img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 75vw;
+  position: relative;
+  z-index: 0;
+  bottom: 74vw;
+}
+
 footer {
   background-color: black;
   height: 7.68vw;
