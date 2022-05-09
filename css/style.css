@@ -238,7 +238,7 @@ nav {
   background-color: var(--secondary-color);
   width: 8.1vw;
   height: 1.88vw;
-  border-bottom: 2px solid var(--lines);
+  border-bottom: 0.13vw solid var(--lines);
   position: relative;
   top: 29.29vw;
 }
@@ -249,7 +249,7 @@ nav {
   padding-right: 1.3vw;
   width: 40vw;
   height: 31.25vw;
-  border: 2px solid var(--lines);
+  border: 0.13vw solid var(--lines);
   position: relative;
   -webkit-transform: translate(18%, 50%);
           transform: translate(18%, 50%);
@@ -348,13 +348,12 @@ nav {
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
-  width: 50%;
   position: relative;
   -webkit-transform: translate(18%, 50%);
           transform: translate(18%, 50%);
   height: 31.25vw;
   width: 40vw;
-  border: 2px solid var(--lines);
+  border: 0.13vw solid var(--lines);
 }
 
 #p2 .vid-commenti iframe {
@@ -370,7 +369,7 @@ nav {
   background-color: var(--secondary-color);
   width: 8.1vw;
   height: 1.88vw;
-  border-bottom: 2px solid var(--lines);
+  border-bottom: 0.13vw solid var(--lines);
   position: relative;
 }
 
@@ -385,13 +384,12 @@ nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 50%;
   position: relative;
   -webkit-transform: translate(18%, 50%);
           transform: translate(18%, 50%);
   height: 31.25vw;
   width: 40vw;
-  border: 2px solid var(--lines);
+  border: 0.13vw solid var(--lines);
   left: -8.1vw;
 }
 
@@ -405,9 +403,196 @@ nav {
   background-color: var(--secondary-color);
   width: 8.1vw;
   height: 1.88vw;
-  border-bottom: 2px solid var(--lines);
+  border-bottom: 0.13vw solid var(--lines);
   position: relative;
   top: 29.29vw;
+}
+
+#p4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#p4 h1 {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  padding-top: 5vw;
+}
+
+#p4 p {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+  -webkit-box-flex: -1;
+      -ms-flex: -1 0 100%;
+          flex: -1 0 100%;
+  -webkit-transform: translateY(-20vw);
+          transform: translateY(-20vw);
+  padding-top: 10vw;
+}
+
+#p4 .vid-lacrime {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  position: relative;
+  -webkit-transform: translate(18%, 50%);
+          transform: translate(18%, 50%);
+  height: 31.25vw;
+  width: 40vw;
+  border: 0.13vw solid var(--lines);
+}
+
+#p4 .vid-lacrime iframe {
+  height: 26vw;
+  width: 40vw;
+  margin-top: 5.07vw;
+}
+
+#p4 .connect {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+  background-color: var(--secondary-color);
+  width: 8.1vw;
+  height: 1.88vw;
+  border-bottom: 0.13vw solid var(--lines);
+  position: relative;
+}
+
+#p5 {
+  margin-top: -22.78vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#p5 h1 {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  padding-top: 10vw;
+  padding-bottom: 2vw;
+}
+
+#p5 .space {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  height: 10vw;
+  width: 50%;
+}
+
+#p5 #p1 {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+  padding-bottom: 9vw;
+}
+
+#p5 .vid-gol-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-ordinal-group: 5;
+      -ms-flex-order: 4;
+          order: 4;
+  position: relative;
+  -webkit-transform: translate(18%, 5%);
+          transform: translate(18%, 5%);
+  height: 17.57vw;
+  width: 27.34vw;
+  border: 0.13vw solid var(--lines);
+  left: -14.5vw;
+}
+
+#p5 #p2 {
+  -webkit-box-ordinal-group: 6;
+      -ms-flex-order: 5;
+          order: 5;
+  padding-bottom: 12vw;
+  padding-top: 4vw;
+}
+
+#p5 .vid-gol-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-ordinal-group: 7;
+      -ms-flex-order: 6;
+          order: 6;
+  position: relative;
+  -webkit-transform: translate(17%, 5%);
+          transform: translate(17%, 5%);
+  height: 17.57vw;
+  width: 27.34vw;
+  border: 0.13vw solid var(--lines);
+}
+
+#p5 #p3 {
+  -webkit-box-ordinal-group: 8;
+      -ms-flex-order: 7;
+          order: 7;
+  padding-top: 28vw;
+  padding-bottom: 10vw;
+}
+
+#p5 .vid-gol-3 {
+  -webkit-box-ordinal-group: 9;
+      -ms-flex-order: 8;
+          order: 8;
+  position: relative;
+  -webkit-transform: translate(17%, 5%);
+          transform: translate(17%, 5%);
+  height: 17.57vw;
+  width: 27.34vw;
+  border: 0.13vw solid var(--lines);
+}
+
+#p5 #p4 {
+  -webkit-box-ordinal-group: 10;
+      -ms-flex-order: 9;
+          order: 9;
+}
+
+#p5 iframe {
+  margin-top: 1.9vw;
+  height: 15.43vw;
+  width: 27.34vw;
+}
+
+#p5 .connect {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+  background-color: var(--secondary-color);
+  width: 4.7vw;
+  height: 1.10vw;
+  border-bottom: 0.13vw solid var(--lines);
+  position: relative;
+}
+
+#p5 #c1 {
+  top: 10vw;
+}
+
+#p5 #c2 {
+  top: 36vw;
+  left: -4.7vw;
+}
+
+#p5 #c3 {
+  top: 64vw;
+  left: -9.4vw;
 }
 
 footer {

@@ -216,7 +216,7 @@ nav{
         background-color: var(--secondary-color);
         width: 8.1vw;
         height: 1.88vw;
-        border-bottom: 2px solid var(--lines);
+        border-bottom: .13vw solid var(--lines);
         position: relative;
         top: 29.29vw;
     }
@@ -227,7 +227,7 @@ nav{
         padding-right: 1.3vw;
         width: 40vw;
         height: 31.25vw;
-        border: 2px solid var(--lines);
+        border: .13vw solid var(--lines);
         position: relative;
         transform: translate(18%, 50%);
         h1 {
@@ -306,12 +306,11 @@ nav{
     .vid-commenti {
         display: flex;
         order: 2;
-        width: 50%;
         position: relative;
         transform: translate(18%, 50%);
         height: 31.25vw;
         width: 40vw;
-        border: 2px solid var(--lines);
+        border: .13vw solid var(--lines);
 
             iframe {
             height: 26vw;
@@ -324,7 +323,7 @@ nav{
         background-color: var(--secondary-color);
         width: 8.1vw;
         height: 1.88vw;
-        border-bottom: 2px solid var(--lines);
+        border-bottom: .13vw solid var(--lines);
         position: relative;
         
     }
@@ -336,12 +335,11 @@ nav{
 
     .vid-commenti2 {
             display: flex;
-            width: 50%;
             position: relative;
             transform: translate(18%, 50%);
             height: 31.25vw;
             width: 40vw;
-            border: 2px solid var(--lines);
+            border: .13vw solid var(--lines);
             left: -8.1vw;
     
                 iframe {
@@ -354,10 +352,150 @@ nav{
             background-color: var(--secondary-color);
             width: 8.1vw;
             height: 1.88vw;
-            border-bottom: 2px solid var(--lines);
+            border-bottom: .13vw solid var(--lines);
             position: relative;
             top: 29.29vw;
         }
+}
+
+#p4 {
+    display: flex;
+    flex-wrap: wrap;
+
+    h1 {
+        order: 1;
+        padding-top: 5vw;
+    }
+
+    p{
+        order: 3;
+        flex: -1 0 100%;
+        transform: translateY(-20vw);
+        padding-top: 10vw;
+    }
+
+    .vid-lacrime {
+        display: flex;
+        order: 2;
+        position: relative;
+        transform: translate(18%, 50%);
+        height: 31.25vw;
+        width: 40vw;
+        border: .13vw solid var(--lines);
+
+            iframe {
+            height: 26vw;
+            width: 40vw;
+            margin-top: 5.07vw;
+        }
+    }
+    .connect {
+        order: 3;
+        background-color: var(--secondary-color);
+        width: 8.1vw;
+        height: 1.88vw;
+        border-bottom: .13vw solid var(--lines);
+        position: relative;
+        
+    }
+
+
+}
+
+#p5 {
+    margin-top: -22.78vw;
+    display: flex;
+    flex-wrap: wrap;
+
+    h1 {
+        order: 1;
+        padding-top: 10vw;
+        padding-bottom: 2vw;
+    }
+
+    .space {
+        order: 2;
+        height: 10vw;
+        width: 50%;
+    }
+
+    #p1{
+        order: 3;
+        padding-bottom: 9vw;
+    }
+
+    .vid-gol-1 {
+        display: flex;
+        order: 4;
+        position: relative;
+        transform: translate(18%, 5%);
+        height: 17.57vw;
+        width: 27.34vw;
+        border: .13vw solid var(--lines);
+        left: -14.5vw;
+    }
+
+    #p2 {
+        order: 5;
+        padding-bottom: 12vw;
+        padding-top: 4vw;
+    }
+
+    .vid-gol-2 {
+        display: flex;
+        order: 6;
+        position: relative;
+        transform: translate(17%, 5%);
+        height: 17.57vw;
+        width: 27.34vw;
+        border: .13vw solid var(--lines);
+    }
+
+    #p3 {
+        order: 7;
+        padding-top: 28vw;
+        padding-bottom: 10vw;
+    }
+
+    .vid-gol-3 {
+        order: 8;
+        position: relative;
+        transform: translate(17%, 5%);
+        height: 17.57vw;
+        width: 27.34vw;
+        border: .13vw solid var(--lines);
+    }
+
+    #p4 {
+        order: 9;
+        
+    }
+
+    iframe {
+        margin-top: 1.9vw;
+        height: 15.43vw;
+        width: 27.34vw;
+    }
+
+    .connect {
+        order: 3;
+        background-color: var(--secondary-color);
+        width: 4.7vw;
+        height: 1.10vw;
+        border-bottom: .13vw solid var(--lines);
+        position: relative;
+    }
+    #c1 {
+        top: 10vw;
+    }
+    #c2{
+        top: 36vw;
+        left: -4.7vw;
+    }
+    #c3{
+        top: 64vw;
+        left: -9.4vw;
+    }
 }
 
 
