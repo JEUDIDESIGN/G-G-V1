@@ -185,20 +185,30 @@ header {
 //Settings nav bar
 nav{
     position: absolute;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 11830px;
+    z-index: 10;
+
+    ul {
+        position: sticky;
+        top: 8vw;
+    }
 
     a {
-    text-decoration: none;
-    list-style: none;
+        text-decoration: none;
+        list-style: none;
+    
     }
 
     li {
+        display: block;
+        color: black;
         font-family: "Space Mono";
         background-color: var(--secondary-color);
         width: fit-content;
         font-size: 1.17vw;
-        margin-top: 3.4vw;
-        margin-bottom: 3.4vw;
         text-align: center;
     }
 
