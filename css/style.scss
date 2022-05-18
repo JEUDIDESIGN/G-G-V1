@@ -185,15 +185,18 @@ header {
 //Settings nav bar
 nav{
     position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     height: 11830px;
     z-index: 10;
 
     ul {
         position: sticky;
         top: 8vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 500px;
+        width: 276px;
+
     }
 
     a {
@@ -208,7 +211,7 @@ nav{
         font-family: "Space Mono";
         background-color: var(--secondary-color);
         width: fit-content;
-        font-size: 1.17vw;
+        font-size: 1.95vw;
         text-align: center;
     }
 

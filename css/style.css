@@ -210,16 +210,6 @@ header a img {
 
 nav {
   position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   height: 11830px;
   z-index: 10;
 }
@@ -228,6 +218,17 @@ nav ul {
   position: -webkit-sticky;
   position: sticky;
   top: 8vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 500px;
+  width: 276px;
 }
 
 nav a {
@@ -243,7 +244,7 @@ nav li {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  font-size: 1.17vw;
+  font-size: 1.95vw;
   text-align: center;
 }
 
