@@ -184,6 +184,9 @@ header {
 }
 //Settings nav bar
 nav{
+<<<<<<< HEAD
+    display: none;
+=======
     position: absolute;
     height: 11821px;
     z-index: 10;
@@ -222,6 +225,7 @@ nav{
         text-align: center;
     }
 
+>>>>>>> 81586a37109c63d69c9fdc7679458596136b3c5b
 }
 //Settings di tutti i paragrafi e prima lettera del primo paragrafo
 .paragraph {
@@ -241,7 +245,6 @@ nav{
         padding: 1.3vw;
         padding-left: 15vw;
     }
-
 
 }
 //Settings primo paragrafo
@@ -407,7 +410,7 @@ nav{
 
     h1 {
         order: 1;
-        padding-top: 5vw;
+        padding-top: 4vw;
     }
 
     p{
@@ -529,7 +532,7 @@ nav{
         position: relative;
     }
     #c1 {
-        top: 9.3vw;
+        top: 10vw;
     }
     #c2{
         top: 36vw;
