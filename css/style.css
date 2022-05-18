@@ -234,6 +234,9 @@ nav ul {
 nav a {
   text-decoration: none;
   list-style: none;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 nav li {
