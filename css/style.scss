@@ -185,7 +185,7 @@ header {
 //Settings nav bar
 nav{
     position: absolute;
-    height: 11830px;
+    height: 11820px;
     z-index: 10;
 
     ul {
@@ -195,14 +195,21 @@ nav{
         flex-direction: column;
         justify-content: space-around;
         height: 500px;
-        width: 276px;
+        width: 13vw;
+        padding-top: 2vw;
+        background-color: #66666677;
 
     }
 
     a {
         text-decoration: none;
         list-style: none;
-        width: fit-content;
+        display: flex;
+        justify-content: center;
+        background-color: var(--secondary-color);
+        margin-left: .5vw;
+        margin-right: .5vw;
+
     
     }
 
@@ -210,7 +217,6 @@ nav{
         display: block;
         color: black;
         font-family: "Space Mono";
-        background-color: var(--secondary-color);
         width: fit-content;
         font-size: 1.95vw;
         text-align: center;
@@ -243,14 +249,29 @@ nav{
 
     display: flex;
 
+    .bin-pullquote {
+        display: block;
+        background-color: black;
+        width: 50%;
+    }
+    .stk-pullquote {
+        
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        position: sticky;
+        top: 25%;
+    }
+
     .connect {
         background-color: var(--secondary-color);
         width: 8.1vw;
         height: 1.88vw;
         border-bottom: .13vw solid var(--lines);
         position: relative;
-        top: 29.29vw;
+        top: 15vw;
     }
+
+    
 
     .pullquote {
         margin-left: -7.3vw;
@@ -260,7 +281,7 @@ nav{
         height: 31.25vw;
         border: .13vw solid var(--lines);
         position: relative;
-        transform: translate(18%, 50%);
+        transform: translate(38.5%, 0%);
         h1 {
             padding-top: 5.7vw;
             font-weight: 900;

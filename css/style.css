@@ -210,7 +210,7 @@ header a img {
 
 nav {
   position: absolute;
-  height: 11830px;
+  height: 11820px;
   z-index: 10;
 }
 
@@ -228,22 +228,29 @@ nav ul {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   height: 500px;
-  width: 276px;
+  width: 13vw;
+  padding-top: 2vw;
+  background-color: #66666677;
 }
 
 nav a {
   text-decoration: none;
   list-style: none;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: var(--secondary-color);
+  margin-left: .5vw;
+  margin-right: .5vw;
 }
 
 nav li {
   display: block;
   color: black;
   font-family: "Space Mono";
-  background-color: var(--secondary-color);
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -273,13 +280,27 @@ nav li {
   display: flex;
 }
 
+#p1 .bin-pullquote {
+  display: block;
+  background-color: black;
+  width: 50%;
+}
+
+#p1 .stk-pullquote {
+  background-color: white;
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 25%;
+}
+
 #p1 .connect {
   background-color: var(--secondary-color);
   width: 8.1vw;
   height: 1.88vw;
   border-bottom: 0.13vw solid var(--lines);
   position: relative;
-  top: 29.29vw;
+  top: 15vw;
 }
 
 #p1 .pullquote {
@@ -290,8 +311,8 @@ nav li {
   height: 31.25vw;
   border: 0.13vw solid var(--lines);
   position: relative;
-  -webkit-transform: translate(18%, 50%);
-          transform: translate(18%, 50%);
+  -webkit-transform: translate(38.5%, 0%);
+          transform: translate(38.5%, 0%);
 }
 
 #p1 .pullquote h1 {
