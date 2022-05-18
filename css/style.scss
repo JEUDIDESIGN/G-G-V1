@@ -184,7 +184,48 @@ header {
 }
 //Settings nav bar
 nav{
+<<<<<<< HEAD
     display: none;
+=======
+    position: absolute;
+    height: 11820px;
+    z-index: 10;
+
+    ul {
+        position: sticky;
+        top: 8vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 500px;
+        width: 13vw;
+        padding-top: 2vw;
+        background-color: #66666677;
+
+    }
+
+    a {
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        background-color: var(--secondary-color);
+        margin-left: .5vw;
+        margin-right: .5vw;
+
+    
+    }
+
+    li {
+        display: block;
+        color: black;
+        font-family: "Space Mono";
+        width: fit-content;
+        font-size: 1.95vw;
+        text-align: center;
+    }
+
+>>>>>>> 81586a37109c63d69c9fdc7679458596136b3c5b
 }
 //Settings di tutti i paragrafi e prima lettera del primo paragrafo
 .paragraph {
@@ -211,14 +252,17 @@ nav{
 
     display: flex;
 
+
     .connect {
         background-color: var(--secondary-color);
         width: 8.1vw;
         height: 1.88vw;
         border-bottom: .13vw solid var(--lines);
         position: relative;
-        top: 29.29vw;
+        top: 30vw;
     }
+
+    
 
     .pullquote {
         margin-left: -7.3vw;
@@ -302,14 +346,16 @@ nav{
         
     }
 
+
     .vid-commenti {
-        display: flex;
         order: 2;
+        display: flex;
         position: relative;
-        transform: translate(18%, 50%);
+        transform: translate(20%, 50%);
         height: 31.25vw;
         width: 40vw;
         border: .13vw solid var(--lines);
+        left: -8.1vw;
 
             iframe {
             height: 26vw;
@@ -318,12 +364,13 @@ nav{
         }
     }
     .connect {
-        order: 3;
+        order: 2;
         background-color: var(--secondary-color);
         width: 8.1vw;
         height: 1.88vw;
         border-bottom: .13vw solid var(--lines);
         position: relative;
+        top: 30vw;
         
     }
 }
@@ -335,7 +382,7 @@ nav{
     .vid-commenti2 {
             display: flex;
             position: relative;
-            transform: translate(18%, 50%);
+            transform: translate(20%, 50%);
             height: 31.25vw;
             width: 40vw;
             border: .13vw solid var(--lines);
@@ -377,7 +424,7 @@ nav{
         display: flex;
         order: 2;
         position: relative;
-        transform: translate(18%, 50%);
+        transform: translate(20%, 50%);
         height: 31.25vw;
         width: 40vw;
         border: .13vw solid var(--lines);
@@ -509,7 +556,7 @@ nav{
         .vid-occasioni {
             display: flex;
             position: relative;
-            transform: translate(18%, 50%);
+            transform: translate(20%, 50%);
             height: 31.25vw;
             width: 40vw;
             border: .13vw solid var(--lines);

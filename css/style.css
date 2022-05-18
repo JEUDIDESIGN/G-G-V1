@@ -210,7 +210,7 @@ header a img {
 
 nav {
   position: absolute;
-  height: 11830px;
+  height: 11820px;
   z-index: 10;
 }
 
@@ -228,22 +228,29 @@ nav ul {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   height: 500px;
-  width: 276px;
+  width: 13vw;
+  padding-top: 2vw;
+  background-color: #66666677;
 }
 
 nav a {
   text-decoration: none;
   list-style: none;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: var(--secondary-color);
+  margin-left: .5vw;
+  margin-right: .5vw;
 }
 
 nav li {
   display: block;
   color: black;
   font-family: "Space Mono";
-  background-color: var(--secondary-color);
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -279,7 +286,7 @@ nav li {
   height: 1.88vw;
   border-bottom: 0.13vw solid var(--lines);
   position: relative;
-  top: 29.29vw;
+  top: 30vw;
 }
 
 #p1 .pullquote {
@@ -381,18 +388,19 @@ nav li {
 }
 
 #p2 .vid-commenti {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   position: relative;
-  -webkit-transform: translate(18%, 50%);
-          transform: translate(18%, 50%);
+  -webkit-transform: translate(20%, 50%);
+          transform: translate(20%, 50%);
   height: 31.25vw;
   width: 40vw;
   border: 0.13vw solid var(--lines);
+  left: -8.1vw;
 }
 
 #p2 .vid-commenti iframe {
@@ -402,14 +410,15 @@ nav li {
 }
 
 #p2 .connect {
-  -webkit-box-ordinal-group: 4;
-      -ms-flex-order: 3;
-          order: 3;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
   background-color: var(--secondary-color);
   width: 8.1vw;
   height: 1.88vw;
   border-bottom: 0.13vw solid var(--lines);
   position: relative;
+  top: 30vw;
 }
 
 #p3 {
@@ -424,8 +433,8 @@ nav li {
   display: -ms-flexbox;
   display: flex;
   position: relative;
-  -webkit-transform: translate(18%, 50%);
-          transform: translate(18%, 50%);
+  -webkit-transform: translate(20%, 50%);
+          transform: translate(20%, 50%);
   height: 31.25vw;
   width: 40vw;
   border: 0.13vw solid var(--lines);
@@ -482,8 +491,8 @@ nav li {
       -ms-flex-order: 2;
           order: 2;
   position: relative;
-  -webkit-transform: translate(18%, 50%);
-          transform: translate(18%, 50%);
+  -webkit-transform: translate(20%, 50%);
+          transform: translate(20%, 50%);
   height: 31.25vw;
   width: 40vw;
   border: 0.13vw solid var(--lines);
@@ -657,8 +666,8 @@ nav li {
   display: -ms-flexbox;
   display: flex;
   position: relative;
-  -webkit-transform: translate(18%, 50%);
-          transform: translate(18%, 50%);
+  -webkit-transform: translate(20%, 50%);
+          transform: translate(20%, 50%);
   height: 31.25vw;
   width: 40vw;
   border: 0.13vw solid var(--lines);
