@@ -280,27 +280,13 @@ nav li {
   display: flex;
 }
 
-#p1 .bin-pullquote {
-  display: block;
-  background-color: black;
-  width: 50%;
-}
-
-#p1 .stk-pullquote {
-  background-color: white;
-  width: 100%;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 25%;
-}
-
 #p1 .connect {
   background-color: var(--secondary-color);
   width: 8.1vw;
   height: 1.88vw;
   border-bottom: 0.13vw solid var(--lines);
   position: relative;
-  top: 15vw;
+  top: 30vw;
 }
 
 #p1 .pullquote {
@@ -311,8 +297,8 @@ nav li {
   height: 31.25vw;
   border: 0.13vw solid var(--lines);
   position: relative;
-  -webkit-transform: translate(38.5%, 0%);
-          transform: translate(38.5%, 0%);
+  -webkit-transform: translate(18%, 50%);
+          transform: translate(18%, 50%);
 }
 
 #p1 .pullquote h1 {
@@ -402,18 +388,19 @@ nav li {
 }
 
 #p2 .vid-commenti {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   position: relative;
-  -webkit-transform: translate(18%, 50%);
-          transform: translate(18%, 50%);
+  -webkit-transform: translate(20%, 50%);
+          transform: translate(20%, 50%);
   height: 31.25vw;
   width: 40vw;
   border: 0.13vw solid var(--lines);
+  left: -8.1vw;
 }
 
 #p2 .vid-commenti iframe {
@@ -423,14 +410,15 @@ nav li {
 }
 
 #p2 .connect {
-  -webkit-box-ordinal-group: 4;
-      -ms-flex-order: 3;
-          order: 3;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
   background-color: var(--secondary-color);
   width: 8.1vw;
   height: 1.88vw;
   border-bottom: 0.13vw solid var(--lines);
   position: relative;
+  top: 30vw;
 }
 
 #p3 {
@@ -445,8 +433,8 @@ nav li {
   display: -ms-flexbox;
   display: flex;
   position: relative;
-  -webkit-transform: translate(18%, 50%);
-          transform: translate(18%, 50%);
+  -webkit-transform: translate(20%, 50%);
+          transform: translate(20%, 50%);
   height: 31.25vw;
   width: 40vw;
   border: 0.13vw solid var(--lines);
@@ -503,8 +491,8 @@ nav li {
       -ms-flex-order: 2;
           order: 2;
   position: relative;
-  -webkit-transform: translate(18%, 50%);
-          transform: translate(18%, 50%);
+  -webkit-transform: translate(20%, 50%);
+          transform: translate(20%, 50%);
   height: 31.25vw;
   width: 40vw;
   border: 0.13vw solid var(--lines);
@@ -678,8 +666,8 @@ nav li {
   display: -ms-flexbox;
   display: flex;
   position: relative;
-  -webkit-transform: translate(18%, 50%);
-          transform: translate(18%, 50%);
+  -webkit-transform: translate(20%, 50%);
+          transform: translate(20%, 50%);
   height: 31.25vw;
   width: 40vw;
   border: 0.13vw solid var(--lines);

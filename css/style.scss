@@ -249,18 +249,6 @@ nav{
 
     display: flex;
 
-    .bin-pullquote {
-        display: block;
-        background-color: black;
-        width: 50%;
-    }
-    .stk-pullquote {
-        
-        background-color: rgb(255, 255, 255);
-        width: 100%;
-        position: sticky;
-        top: 25%;
-    }
 
     .connect {
         background-color: var(--secondary-color);
@@ -268,7 +256,7 @@ nav{
         height: 1.88vw;
         border-bottom: .13vw solid var(--lines);
         position: relative;
-        top: 15vw;
+        top: 30vw;
     }
 
     
@@ -281,7 +269,7 @@ nav{
         height: 31.25vw;
         border: .13vw solid var(--lines);
         position: relative;
-        transform: translate(38.5%, 0%);
+        transform: translate(18%, 50%);
         h1 {
             padding-top: 5.7vw;
             font-weight: 900;
@@ -355,14 +343,16 @@ nav{
         
     }
 
+
     .vid-commenti {
-        display: flex;
         order: 2;
+        display: flex;
         position: relative;
-        transform: translate(18%, 50%);
+        transform: translate(20%, 50%);
         height: 31.25vw;
         width: 40vw;
         border: .13vw solid var(--lines);
+        left: -8.1vw;
 
             iframe {
             height: 26vw;
@@ -371,12 +361,13 @@ nav{
         }
     }
     .connect {
-        order: 3;
+        order: 2;
         background-color: var(--secondary-color);
         width: 8.1vw;
         height: 1.88vw;
         border-bottom: .13vw solid var(--lines);
         position: relative;
+        top: 30vw;
         
     }
 }
@@ -388,7 +379,7 @@ nav{
     .vid-commenti2 {
             display: flex;
             position: relative;
-            transform: translate(18%, 50%);
+            transform: translate(20%, 50%);
             height: 31.25vw;
             width: 40vw;
             border: .13vw solid var(--lines);
@@ -430,7 +421,7 @@ nav{
         display: flex;
         order: 2;
         position: relative;
-        transform: translate(18%, 50%);
+        transform: translate(20%, 50%);
         height: 31.25vw;
         width: 40vw;
         border: .13vw solid var(--lines);
@@ -562,7 +553,7 @@ nav{
         .vid-occasioni {
             display: flex;
             position: relative;
-            transform: translate(18%, 50%);
+            transform: translate(20%, 50%);
             height: 31.25vw;
             width: 40vw;
             border: .13vw solid var(--lines);
