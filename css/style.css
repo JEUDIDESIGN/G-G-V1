@@ -209,7 +209,12 @@ header a img {
 }
 
 nav {
-  display: none;
+  position: absolute;
+}
+
+nav a {
+  text-decoration: none;
+  list-style: none;
 }
 
 .paragraph #intro::first-letter {

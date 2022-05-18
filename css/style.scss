@@ -184,7 +184,13 @@ header {
 }
 //Settings nav bar
 nav{
-    display: none;
+    position: absolute;
+
+    a {
+    text-decoration: none;
+    list-style: none;
+    }
+
 }
 //Settings di tutti i paragrafi e prima lettera del primo paragrafo
 .paragraph {
