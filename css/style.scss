@@ -185,10 +185,21 @@ header {
 //Settings nav bar
 nav{
     position: absolute;
+    
 
     a {
     text-decoration: none;
     list-style: none;
+    }
+
+    li {
+        font-family: "Space Mono";
+        background-color: var(--secondary-color);
+        width: fit-content;
+        font-size: 1.17vw;
+        margin-top: 3.4vw;
+        margin-bottom: 3.4vw;
+        text-align: center;
     }
 
 }

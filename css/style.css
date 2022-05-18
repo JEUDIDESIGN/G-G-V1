@@ -217,6 +217,18 @@ nav a {
   list-style: none;
 }
 
+nav li {
+  font-family: "Space Mono";
+  background-color: var(--secondary-color);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 1.17vw;
+  margin-top: 3.4vw;
+  margin-bottom: 3.4vw;
+  text-align: center;
+}
+
 .paragraph #intro::first-letter {
   color: var(--secondary-color);
   font-size: 6.51vw;
