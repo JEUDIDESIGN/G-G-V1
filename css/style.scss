@@ -96,7 +96,7 @@ header {
             font-size: .97vw;
             font-weight: 500;
             margin-top: 2.60vw;
-        }
+        }   
     }
 
     .hero-img {
@@ -107,6 +107,10 @@ header {
          object-fit: cover;
          overflow: hidden;
 
+    }
+
+    .resume {
+        display: none;
     }
 }
 //Settings social bar
@@ -183,10 +187,55 @@ header {
     
 }
 //Settings nav bar
+
+label {
+    display: flex;
+    position: sticky;
+    top: 8vw;
+    z-index: 999;
+}
+
+label #btn, label #cancel {
+    position: absolute;
+    cursor: pointer;
+    top: 8vw;
+    left: .3vw;
+    z-index: 50;
+    border: 0;
+    transition: all 0.5s ease-in-out;
+
+}
+
+label #btn {
+    position: sticky;
+   color: var(--lines);
+   padding: 0.5vw;
+   font-size: 2vw;
+}
+
+label #cancel {
+    position: sticky;
+   opacity: 0;
+   color: var(--lines);
+   font-size: 2vw;
+   padding: .5vw;
+   transform: translateX(-100%);
+}
 nav{
     position: absolute;
     height: 769.53125vw;
     z-index: 10;
+
+    .line {
+        position: absolute;
+        height: 100%;
+        width: .1vw;
+        left: 3.5vw;
+        border-right: .13vw solid var(--lines);
+        transform: translateX(0);
+        transition: all 0.5s ease-in-out;
+        top: 0;
+    }
 
     ul {
         position: sticky;
@@ -198,7 +247,10 @@ nav{
         width: 13vw;
         padding-top: 2vw;
         background-color: #66666677;
-
+        margin-top: -3vw;
+        z-index: 10;
+        transform: translateX(-100%);
+        transition: all 0.5s ease-in-out;
     }
 
     a {
@@ -221,12 +273,79 @@ nav{
         font-size: 1.95vw;
         text-align: center;
     }
+    
+   /* .burger {
+        position: sticky;
+        height: 2vw;
+        top: 8.5vw;
+        z-index: 11;
+        margin-left: .5vw;
+        margin-top: .5vw;
+        
+    }*/
 
 }
+
+#check {
+    display: none;
+    z-index: 50;
+}
+
+
+
+#check:checked ~ div {
+    opacity: 0;
+    transform: translateX(13vw);
+}
+
+#check:checked ~ ul {
+    transform: translateX(0);
+}
+
+
+#check:checked ~ label #btn {
+    opacity: 0;
+    pointer-events: none;
+}
+
+#check:checked ~ label #cancel {
+    opacity: 100;
+    
+}
+
 //Settings di tutti i paragrafi e prima lettera del primo paragrafo
+#intro {
+    position: relative;
+    top: -8vw;
+}
+#commenti {
+    position: relative;
+    top: -8vw;
+}
+
+#lacrime {
+    position: relative;
+    top: -8vw;
+}
+
+#gol {
+    position: relative;
+    top: -4vw;
+}
+
+#occasioni {
+    position: relative;
+    top: -8vw;
+}
+
+#epilogo {
+    position: relative;
+    top: -8vw;
+}
+
 .paragraph {
     
-    #intro::first-letter{
+    #first::first-letter{
         color: var(--secondary-color);
         font-size: 6.51vw;
         font-weight: 900;
@@ -294,6 +413,7 @@ nav{
     width: 100%;
     background-color: black;
     height: 31.25vw;
+    z-index: 5;
     img {
         
         width: 100%;
@@ -577,7 +697,7 @@ nav{
 
     #p-white{
         color: white;
-        z-index: 10;
+        z-index: 1;
         border: none;
     }
 
@@ -716,4 +836,88 @@ footer{
         margin-top: 3.25vw;
         margin-left: 1.67vw;
     }
+}
+
+
+@media (orientation: portrait) {
+    body {
+        background-color: black;
+    }
+
+    header{
+        background-color: var(--secondary-color);
+        height: 15vw;
+    }
+
+    .hero {
+        flex-direction: column;
+        padding-top: 15vw;
+        height: auto;
+        width: 100%;
+
+        .title-box {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+
+            h1 {
+                font-size: 15vw;
+                padding-left: 2vw;
+                padding-top: 4vw;
+                line-height: 14.5vw;
+            }
+
+            #title2, #title3 {
+                padding-left: 2vw;
+                padding-top: 4vw;
+            }
+
+            #title2 {
+                top: 30.5vw;
+                left: 2.3vw;
+            }
+
+            #title3 {
+                top: 45vw;
+                left: 36vw;
+            }
+
+            h2, p {
+                display: none;
+            }
+        }
+
+        .hero-img {
+            width: 100%;
+            height: 110vw;
+            padding-top: 4vw;
+        }
+
+        .resume {
+            display: block;
+            padding: 8vw;
+        }
+
+        .h2 {
+            font-family: "Space Mono";
+            background-color: var(--secondary-color);
+            margin-bottom: .52vw;
+            width: fit-content;
+            line-height: 95%;
+            font-size: 3.2vw;
+            margin-top: 2vw;
+            
+        }
+
+        .p {
+            color: white;
+            font-size: 2vw;
+            font-weight: 500;
+            margin-top: 2.60vw;
+        }
+
+
+    }
+
+
 }

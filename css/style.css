@@ -133,6 +133,10 @@ header a img {
   overflow: hidden;
 }
 
+.hero .resume {
+  display: none;
+}
+
 .divisore-social {
   height: 8.46vw;
   width: 100%;
@@ -208,10 +212,72 @@ header a img {
   width: 1.5vw;
 }
 
+label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 8vw;
+  z-index: 999;
+}
+
+label #btn, label #cancel {
+  position: absolute;
+  cursor: pointer;
+  top: 8vw;
+  left: .3vw;
+  z-index: 50;
+  border: 0;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+label #btn {
+  position: -webkit-sticky;
+  position: sticky;
+  color: var(--lines);
+  padding: 0.5vw;
+  font-size: 2vw;
+}
+
+label #cancel {
+  position: -webkit-sticky;
+  position: sticky;
+  opacity: 0;
+  color: var(--lines);
+  font-size: 2vw;
+  padding: .5vw;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+
 nav {
   position: absolute;
   height: 769.53125vw;
   z-index: 10;
+  /* .burger {
+        position: sticky;
+        height: 2vw;
+        top: 8.5vw;
+        z-index: 11;
+        margin-left: .5vw;
+        margin-top: .5vw;
+        
+    }*/
+}
+
+nav .line {
+  position: absolute;
+  height: 100%;
+  width: .1vw;
+  left: 3.5vw;
+  border-right: 0.13vw solid var(--lines);
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  top: 0;
 }
 
 nav ul {
@@ -231,6 +297,12 @@ nav ul {
   width: 13vw;
   padding-top: 2vw;
   background-color: #66666677;
+  margin-top: -3vw;
+  z-index: 10;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 nav a {
@@ -258,7 +330,62 @@ nav li {
   text-align: center;
 }
 
-.paragraph #intro::first-letter {
+#check {
+  display: none;
+  z-index: 50;
+}
+
+#check:checked ~ div {
+  opacity: 0;
+  -webkit-transform: translateX(13vw);
+          transform: translateX(13vw);
+}
+
+#check:checked ~ ul {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+#check:checked ~ label #btn {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#check:checked ~ label #cancel {
+  opacity: 100;
+}
+
+#intro {
+  position: relative;
+  top: -8vw;
+}
+
+#commenti {
+  position: relative;
+  top: -8vw;
+}
+
+#lacrime {
+  position: relative;
+  top: -8vw;
+}
+
+#gol {
+  position: relative;
+  top: -4vw;
+}
+
+#occasioni {
+  position: relative;
+  top: -8vw;
+}
+
+#epilogo {
+  position: relative;
+  top: -8vw;
+}
+
+.paragraph #first::first-letter {
   color: var(--secondary-color);
   font-size: 6.51vw;
   font-weight: 900;
@@ -327,6 +454,7 @@ nav li {
   width: 100%;
   background-color: black;
   height: 31.25vw;
+  z-index: 5;
 }
 
 .divisore-ita img {
@@ -691,7 +819,7 @@ nav li {
 
 #p6 #p-white {
   color: white;
-  z-index: 10;
+  z-index: 1;
   border: none;
 }
 
@@ -836,5 +964,79 @@ footer h1 {
   font-weight: 500;
   margin-top: 3.25vw;
   margin-left: 1.67vw;
+}
+
+@media (orientation: portrait) {
+  body {
+    background-color: black;
+  }
+  header {
+    background-color: var(--secondary-color);
+    height: 15vw;
+  }
+  .hero {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 15vw;
+    height: auto;
+    width: 100%;
+  }
+  .hero .title-box {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .hero .title-box h1 {
+    font-size: 15vw;
+    padding-left: 2vw;
+    padding-top: 4vw;
+    line-height: 14.5vw;
+  }
+  .hero .title-box #title2, .hero .title-box #title3 {
+    padding-left: 2vw;
+    padding-top: 4vw;
+  }
+  .hero .title-box #title2 {
+    top: 30.5vw;
+    left: 2.3vw;
+  }
+  .hero .title-box #title3 {
+    top: 45vw;
+    left: 36vw;
+  }
+  .hero .title-box h2, .hero .title-box p {
+    display: none;
+  }
+  .hero .hero-img {
+    width: 100%;
+    height: 110vw;
+    padding-top: 4vw;
+  }
+  .hero .resume {
+    display: block;
+    padding: 8vw;
+  }
+  .hero .h2 {
+    font-family: "Space Mono";
+    background-color: var(--secondary-color);
+    margin-bottom: .52vw;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    line-height: 95%;
+    font-size: 3.2vw;
+    margin-top: 2vw;
+  }
+  .hero .p {
+    color: white;
+    font-size: 2vw;
+    font-weight: 500;
+    margin-top: 2.60vw;
+  }
 }
 /*# sourceMappingURL=style.css.map */
