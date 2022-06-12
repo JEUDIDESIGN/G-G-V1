@@ -1066,7 +1066,6 @@ footer h1 {
     width: 4vw;
   }
   nav {
-    display: none;
     position: fixed;
     top: 0px;
     z-index: 111;
