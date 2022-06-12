@@ -809,6 +809,7 @@ nav{
 .img-bot {
     width: 100%;
     display: flex;
+    z-index: 11;
 
     img{
         object-fit: contain;
