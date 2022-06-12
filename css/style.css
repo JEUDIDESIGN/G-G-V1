@@ -933,12 +933,14 @@ nav li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+    
 }
 
 .img-bot img {
   -o-object-fit: contain;
      object-fit: contain;
-  width: 100%;
+    width: 100%; 
+    z-index: 11;
 }
 
 footer {
