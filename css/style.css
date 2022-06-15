@@ -787,6 +787,7 @@ nav li {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+      margin-bottom: 2vw;
 }
 
 #p6 .par1 .vid-occasioni {
